@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a4d2e" />
+  <title>Ash's BPT Study Bank</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="btn-love" class="icon-btn" aria-label="Love"><svg width="20" height="18" viewBox="0 0 20 18" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M10 17.5l-1.4-1.3C3.4 11.4 0 8.3 0 4.9 0 2.2 2.2 0 4.9 0 6.5 0 8 .7 10 2.5 12 .7 13.5 0 15.1 0 17.8 0 20 2.2 20 4.9c0 3.4-3.4 6.5-8.6 11.3L10 17.5z"/></svg></button>
+    <button id="btn-home" class="icon-btn" aria-label="Home" hidden>&#x2190;</button>
+    <h1 id="top-title">Ash's BPT Study Bank</h1>
+    <button id="btn-stats" class="icon-btn" aria-label="Stats"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="12" width="4" height="7" rx="1" fill="white"/><rect x="8" y="7" width="4" height="12" rx="1" fill="white"/><rect x="15" y="2" width="4" height="17" rx="1" fill="white"/></svg></button>
+  </header>
+
+  <main id="app"></main>
+
+  <!-- Templates -->
+  <template id="tpl-home">
+    <section class="screen home">
+      <div class="card">
+        <h2>Ready to study?</h2>
+        <p class="muted" id="home-summary">Loading question bank…</p>
+        <label class="row">
+          <span>Questions per session</span>
+          <select id="session-size">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <label class="row">
+          <span>Mode</span>
+          <select id="session-mode">
+            <option value="smart" selected>Smart (prioritise wrong & due)</option>
+            <option value="wrong">Wrong answers only</option>
+            <option value="new">New questions only</option>
+            <option value="random">Random</option>
+          </select>
+        </label>
+        <button id="btn-start" class="primary big">Start session</button>
+      </div>
+
+      <div class="card">
+        <h3>Progress</h3>
+        <div class="stats-grid" id="home-stats"></div>
+      </div>
+
+      <details class="card">
+        <summary>Advanced</summary>
+        <button id="btn-export" class="ghost">Export progress (JSON)</button>
+        <button id="btn-import" class="ghost">Import progress</button>
+        <input type="file" id="import-file" accept="application/json" hidden />
+        <button id="btn-reset" class="danger">Reset all progress</button>
+      </details>
+    </section>
+  </template>
+
+  <template id="tpl-question">
+    <section class="screen question">
+      <div class="progress-bar"><div id="progress-fill"></div></div>
+      <div class="meta">
+        <span id="q-counter"></span>
+        <span id="q-source" class="muted"></span>
+      </div>
+      <div class="card stem">
+        <p id="q-stem"></p>
+      </div>
+      <ul class="options" id="q-options"></ul>
+      <div id="q-feedback" class="feedback" hidden></div>
+      <div class="actions">
+        <button id="btn-skip" class="ghost">Skip</button>
+        <button id="btn-next" class="primary" hidden>Next</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-summary">
+    <section class="screen summary">
+      <div class="card">
+        <h2>Session complete</h2>
+        <p class="big-score"><span id="s-correct"></span> / <span id="s-total"></span></p>
+        <p class="muted" id="s-accuracy"></p>
+        <button id="btn-review-wrong" class="primary">Review wrong ones</button>
+        <button id="btn-again" class="ghost">New session</button>
+        <button id="btn-home-from-summary" class="ghost">Home</button>
+      </div>
+      <div class="card" id="s-list"></div>
+    </section>
+  </template>
+
+  <template id="tpl-stats">
+    <section class="screen stats">
+      <div class="card">
+        <h2>Your stats</h2>
+        <div class="stats-grid" id="stats-detail"></div>
+      </div>
+      <div class="card">
+        <h3>By tag</h3>
+        <div id="stats-by-tag"></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-love">
+    <section class="screen love">
+      <div class="card love-card">
+        <p class="love-heart">&#x2764;&#xFE0F;</p>
+        <p class="love-msg">I love you so much, you're my favourite person in the world and you can do this &#x2764;&#xFE0F;</p>
+        <button id="btn-love-back" class="primary">Back</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-empty">
+    <section class="screen">
+      <div class="card">
+        <h2>No questions loaded yet</h2>
+        <p>The question bank (<code>questions.json</code>) is empty. Add exam materials and rebuild the bank.</p>
+      </div>
+    </section>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
