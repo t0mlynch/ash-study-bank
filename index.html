@@ -40,10 +40,37 @@
           <select id="session-mode">
             <option value="smart" selected>Smart (prioritise wrong & due)</option>
             <option value="wrong">Wrong answers only</option>
+            <option value="seen">Seen questions only</option>
             <option value="new">New questions only</option>
             <option value="random">Random</option>
           </select>
         </label>
+        <div class="filter-group">
+          <label class="row filter-toggle" id="source-filter-toggle">
+            <span>Exam sources</span>
+            <span class="filter-badge" id="source-badge">All</span>
+          </label>
+          <div class="filter-panel" id="source-panel" hidden>
+            <div class="filter-actions">
+              <button type="button" class="ghost small" id="source-all">Select all</button>
+              <button type="button" class="ghost small" id="source-none">Clear</button>
+            </div>
+            <div class="filter-list" id="source-list"></div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="row filter-toggle" id="topic-filter-toggle">
+            <span>Topics</span>
+            <span class="filter-badge" id="topic-badge">All</span>
+          </label>
+          <div class="filter-panel" id="topic-panel" hidden>
+            <div class="filter-actions">
+              <button type="button" class="ghost small" id="topic-all">Select all</button>
+              <button type="button" class="ghost small" id="topic-none">Clear</button>
+            </div>
+            <div class="filter-list" id="topic-list"></div>
+          </div>
+        </div>
         <button id="btn-start" class="primary big">Start session</button>
       </div>
 
@@ -69,8 +96,13 @@
         <span id="q-counter"></span>
         <span id="q-source" class="muted"></span>
       </div>
+      <div class="meta">
+        <span></span>
+        <span id="q-topics" class="muted"></span>
+      </div>
       <div class="card stem">
         <p id="q-stem"></p>
+        <div id="q-images"></div>
       </div>
       <ul class="options" id="q-options"></ul>
       <div id="q-feedback" class="feedback" hidden></div>

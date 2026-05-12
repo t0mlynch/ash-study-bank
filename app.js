@@ -70,15 +70,29 @@ function recordAnswer(questionId, wasCorrect) {
 }
 
 // Build today's session queue
-function buildQueue(questions, mode, size) {
+function buildQueue(questions, mode, size, filters) {
   const now = Date.now();
-  const withProgress = questions.map(q => ({ q, p: state.progress[q.id] }));
+
+  // Apply source and topic filters
+  let filtered = questions;
+  if (filters) {
+    if (filters.sources && filters.sources.length > 0) {
+      filtered = filtered.filter(q => filters.sources.includes(q.source));
+    }
+    if (filters.topics && filters.topics.length > 0) {
+      filtered = filtered.filter(q => (q.topics || []).some(t => filters.topics.includes(t)));
+    }
+  }
+
+  const withProgress = filtered.map(q => ({ q, p: state.progress[q.id] }));
 
   let pool;
   if (mode === 'wrong') {
     pool = withProgress.filter(x => x.p && x.p.wrong > 0);
-    // sort: most-wrong first, then oldest-seen
     pool.sort((a, b) => (b.p.wrong - a.p.wrong) || (a.p.lastShownAt - b.p.lastShownAt));
+  } else if (mode === 'seen') {
+    pool = withProgress.filter(x => x.p && x.p.seen > 0);
+    shuffle(pool);
   } else if (mode === 'new') {
     pool = withProgress.filter(x => !x.p);
     shuffle(pool);
@@ -90,7 +104,6 @@ function buildQueue(questions, mode, size) {
     const due = withProgress.filter(x => x.p && x.p.dueAt <= now);
     const newOnes = withProgress.filter(x => !x.p);
     const notDue = withProgress.filter(x => x.p && x.p.dueAt > now);
-    // priority score: higher = earlier in queue
     due.sort((a, b) => score(b.p, now) - score(a.p, now));
     shuffle(newOnes);
     notDue.sort((a, b) => score(b.p, now) - score(a.p, now));
@@ -189,13 +202,35 @@ function bindHome() {
   statsEl.appendChild(stat('Due now', dueNow));
   statsEl.appendChild(stat('Got wrong', wrongOnes));
 
+  // --- Source filter ---
+  const allSources = [...new Set(questions.map(q => q.source))].sort();
+  const selectedSources = state.settings.selectedSources || allSources.slice();
+  buildFilterPanel('source', allSources, selectedSources);
+
+  // --- Topic filter ---
+  const TOPIC_ORDER = [
+    'cardiology', 'immunology', 'general medicine', 'neurology', 'nephrology',
+    'obstetric medicine', 'endocrinology', 'infectious diseases', 'respiratory',
+    'gastroenterology', 'rheumatology', 'dermatology', 'haematology', 'oncology',
+    'palliative care', 'pharmacology', 'genetics', 'geriatrics', 'psychiatry',
+    'ICU', 'statistics', 'disability', 'other'
+  ];
+  const selectedTopics = state.settings.selectedTopics || TOPIC_ORDER.slice();
+  buildFilterPanel('topic', TOPIC_ORDER, selectedTopics);
+
   document.querySelector('#btn-start').addEventListener('click', () => {
     state.settings.sessionSize = parseInt(sessionSizeEl.value, 10);
     state.settings.mode = sessionModeEl.value;
+    state.settings.selectedSources = getFilterSelection('source');
+    state.settings.selectedTopics = getFilterSelection('topic');
     saveState();
-    const queue = buildQueue(questions, state.settings.mode, state.settings.sessionSize);
+    const filters = {
+      sources: state.settings.selectedSources.length < allSources.length ? state.settings.selectedSources : null,
+      topics: state.settings.selectedTopics.length < TOPIC_ORDER.length ? state.settings.selectedTopics : null,
+    };
+    const queue = buildQueue(questions, state.settings.mode, state.settings.sessionSize, filters);
     if (queue.length === 0) {
-      alert('No questions available for this mode.');
+      alert('No questions available for this mode/filter combination.');
       return;
     }
     startSession(queue);
@@ -245,6 +280,59 @@ function stat(label, value) {
   return d;
 }
 
+// --- Filter panel helpers ---
+function buildFilterPanel(prefix, items, selected) {
+  const toggle = document.querySelector(`#${prefix}-filter-toggle`);
+  const panel = document.querySelector(`#${prefix}-panel`);
+  const list = document.querySelector(`#${prefix}-list`);
+  const badge = document.querySelector(`#${prefix}-badge`);
+
+  list.innerHTML = '';
+  items.forEach(item => {
+    const label = document.createElement('label');
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.value = item;
+    cb.checked = selected.includes(item);
+    cb.addEventListener('change', () => updateFilterBadge(prefix, items));
+    const span = document.createElement('span');
+    span.textContent = item;
+    label.appendChild(cb);
+    label.appendChild(span);
+    list.appendChild(label);
+  });
+
+  toggle.addEventListener('click', () => {
+    panel.hidden = !panel.hidden;
+  });
+
+  document.querySelector(`#${prefix}-all`).addEventListener('click', () => {
+    list.querySelectorAll('input').forEach(cb => cb.checked = true);
+    updateFilterBadge(prefix, items);
+  });
+  document.querySelector(`#${prefix}-none`).addEventListener('click', () => {
+    list.querySelectorAll('input').forEach(cb => cb.checked = false);
+    updateFilterBadge(prefix, items);
+  });
+
+  updateFilterBadge(prefix, items);
+}
+
+function getFilterSelection(prefix) {
+  const list = document.querySelector(`#${prefix}-list`);
+  return Array.from(list.querySelectorAll('input:checked')).map(cb => cb.value);
+}
+
+function updateFilterBadge(prefix, allItems) {
+  const badge = document.querySelector(`#${prefix}-badge`);
+  const selected = getFilterSelection(prefix);
+  if (selected.length === allItems.length || selected.length === 0) {
+    badge.textContent = 'All';
+  } else {
+    badge.textContent = `${selected.length} / ${allItems.length}`;
+  }
+}
+
 // ---------- Session ----------
 let session = null;
 
@@ -271,8 +359,22 @@ function bindQuestion(q) {
   const idx = session.index;
   document.querySelector('#q-counter').textContent = `Q ${idx + 1} / ${total}`;
   document.querySelector('#q-source').textContent = q.source || '';
+  document.querySelector('#q-topics').textContent = (q.topics || []).join(', ');
   document.querySelector('#q-stem').textContent = q.stem || '';
   document.querySelector('#progress-fill').style.width = `${Math.round((idx) / total * 100)}%`;
+
+  // Render images if present
+  const imagesEl = document.querySelector('#q-images');
+  imagesEl.innerHTML = '';
+  if (q.images && q.images.length > 0) {
+    q.images.forEach(src => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = 'Question image';
+      img.className = 'q-img';
+      imagesEl.appendChild(img);
+    });
+  }
 
   const optsEl = document.querySelector('#q-options');
   optsEl.innerHTML = '';
@@ -377,7 +479,12 @@ function bindSummary() {
     startSession(queue);
   });
   document.querySelector('#btn-again').addEventListener('click', () => {
-    const queue = buildQueue(questions, state.settings.mode, state.settings.sessionSize);
+    const filters = {
+      sources: state.settings.selectedSources || null,
+      topics: state.settings.selectedTopics || null,
+    };
+    const queue = buildQueue(questions, state.settings.mode, state.settings.sessionSize, filters);
+    if (queue.length === 0) { alert('No questions available.'); return; }
     startSession(queue);
   });
   document.querySelector('#btn-home-from-summary').addEventListener('click', () => render('home'));

@@ -157,6 +157,14 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   font-size: 16px;
   white-space: pre-wrap;
 }
+.q-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px 0 0;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
 
 .options {
   list-style: none;
@@ -256,6 +264,69 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .tag-row:last-child { border-bottom: 0; }
 
 code { background: var(--bg); padding: 2px 6px; border-radius: 4px; font-size: 90%; }
+
+/* Filter dropdowns */
+.filter-group {
+  margin: 10px 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.filter-toggle {
+  cursor: pointer;
+  padding: 10px 14px;
+  margin: 0;
+  background: var(--surface);
+}
+.filter-badge {
+  font-size: 13px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: 12px;
+  color: var(--muted);
+}
+.filter-panel {
+  padding: 8px 14px 14px;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+.filter-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.filter-actions button {
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 13px;
+  width: auto;
+  border-radius: 8px;
+}
+.filter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.filter-list label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  padding: 5px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filter-list label:active {
+  background: var(--surface);
+}
+.filter-list input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
 
 /* Love screen */
 .love-card {

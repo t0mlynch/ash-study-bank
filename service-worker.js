@@ -2,7 +2,7 @@
 // On localhost, this self-destructs to avoid deadlocking the dev server.
 // On production (hosted), it provides full offline caching.
 
-const CACHE = 'racp-bpt-v2';
+const CACHE = 'racp-bpt-v3';
 
 // On localhost, just unregister quietly — no reload loop
 if (self.location.hostname === 'localhost' || self.location.hostname === '127.0.0.1') {
