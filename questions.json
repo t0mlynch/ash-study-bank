@@ -38087,8 +38087,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "verified-highlight",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "The clinical picture is very much in keeping with substance abuse, prolonged immobilization from the unconscious state with rhabdomyolysis. The evidence for rhabdomyolysis comes from the acute renal failure, raised AST and ALT with positive urine myoglobin test and reddish-brown granular casts. This can be confirmed further by Serum Creatine Kinase levels which will be markedly elevated. The appropriate treatment for this is to replace the volume depletion with IV normal saline initially. Hemodialysis is indicated for patients who remain in severe AKI despite volume replacement with persistent hyperkalemia or metabolic acidosis or volume overload. Hypocalcemia is due to calcium sequestration in the damaged muscles. Intravenous Calcium should only be given for patients who are symptomatic or are at risk for arrythmias due to severe hyperkalemia with ECG changes. Although there is a theoretical advantage of alkalinizing urine to pH >6.5 to prevent intratubular pigment cast formation, reduce release of free iron from myoglobin or risk of tubular precipitation of uric acid, clear benefit is lacking. IV bicarbonate must be used only after diuresis is established with volume repletion Reference: Clinical manifestations and diagnosis of rhabdomyolysis, Prevention and treatment of heme pigment-induced acute kidney injury (including rhabdomyolysis) - UptoDate",
          "id" : "qimep2022-008",
          "options" : [
@@ -38121,8 +38121,8 @@
          ]
       },
       {
-         "answer" : "C",
-         "answerSource" : "verified-highlight",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "The question focuses on the use of medications during pregnancy. ACEI/ARB and spironolactone are contraindicated during pregnancy due to teratogenicity. Complete cessation of heart failure medications, particularly where LVEF is not normal pre-pregnancy would not be recommended due to risk and consequences of worsening heart failure closer to term. Beta blockers are recommended to continue with beta-1 selective agents preferred Hydralazine and nitrates, in combination, have trial evidence of survival benefit in non-pregnancy HF settings and are a relatively safe alternative to ACEI during pregnancy with decompensated heart failure. See: https://www.escardio.org/Guidelines/Cl inical-Practice-Gui deli nes/Cardiovascular-Diseases- duri ng- Pregnancy-Management-of",
          "id" : "qimep2022-011",
          "options" : [
@@ -38269,8 +38269,8 @@
          ]
       },
       {
-         "answer" : "D",
-         "answerSource" : "verified-highlight",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "Question relies on an understanding of mutational mechanisms Gain of function Loss of function, haploinsufficiency If inserting a new (functional) copy of the gene, this implies the mechanism of disease is `loss of function' Many (not all) emerging CRISPR therapies target AR conditions (SMA, CFTR, LCA) AD/XLD conditions if gain of function mechanism, inserting new copy of gene won't work if haploinsufficiency/LoF, would help, but difficult to achieve complete haplosufficiency Polygenic: doesn't make sense, as due to combined effects of multiple genes",
          "id" : "qimep2022-022",
          "options" : [
@@ -38851,8 +38851,8 @@
          ]
       },
       {
-         "answer" : "B",
-         "answerSource" : "verified-highlight",
+         "answer" : "A",
+         "answerSource" : "verified-manual",
          "explanation" : "The diagnosis is most in keeping with asthma. Spirometry demonstrates mild obstruction with a significant bronchodilator response (12% and >200mls). Lung volumes show moderate hyperinflation and moderate gas trapping. Transfer factor is preserved. COPD with response to bronchodilator is reasonable, although asthma is the best response.",
          "id" : "qimep2022-009",
          "options" : [
