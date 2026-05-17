@@ -39,6 +39,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "This is a classic presentation of Multiple Endocrine Neoplasia Type 1. The clinical diagnosis of MEN1 is based upon the occurrence of two or more primary MEN1 tumor types (parathyroid gland, anterior pituitary, and enteropancreatic). Dyspepsia in a young person is the clue.",
@@ -513,6 +516,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "Tocilizumab targets IL-6 and benefit was seen in the GiACTA trial in relapsing giant cell arteritis.",
@@ -616,6 +622,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "A",
          "answerSource" : "official",
          "explanation" : "Lead time bias in screening programmes occurs often. It occurs when comparing survival of patients detected through screening versus patients detected from clinical findings.",
@@ -649,6 +658,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "A",
          "answerSource" : "official",
          "explanation" : "C-RET oncogene mutations are commonly seen in medullary thyroid cancer.",
@@ -721,6 +733,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "FAP has 100% risk of colorectal cancer if left untreated. Recommended screening includes annual sigmoidoscopy from age 12 years and two yearly gastroscopy from 25 years as gastric and duodenal polyposis is a recognised extra-colonic feature (and potential cause of mortality post-colectomy).\nNotification of at risk family members, genetic counselling, and advising afflicted families to enrol in a family cancer register is also recommended.",
@@ -838,6 +853,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "Anti-GQ1b. Miller-Fisher syndrome (MFS), is a variant of Guillain Barre Syndrome and constitutes about 5% of presentations. An cute onset of external ophthalmoplegia is the cardinal feature. Ataxia, mild limb weakness, ptosis, facial palsy, and bulbar palsy may be seen. - Anti-MOG is associated with Anti-MOG syndrome. - Voltage gated calcium channel (VGCC) antibodies are associated with Lambert-Eaton myasthenic syndrome. - Acetylcholine receptor antibodies are seen in Myasthenia Gravis.",
@@ -1016,6 +1034,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "EBV establishes latent infection in B lymphocytes and epithelial cells. Under circumstances like immunosuppression there may be reactivation of the virus inducing lymphoproliferative disorders, especially Burkitt's lymphoma.",
@@ -1084,6 +1105,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "Specificity\nCancer present Test + 120 TP\n- 60 FN 180\n\nCancer absent\n\n40 FP\n\n160\n\n200 TN\n\n260\n\n240\n\nSensitivity = TP/condition positive = 120/180 = 2/3 Specificity = TN/condition negative = 200/240 = 5/6 PPV = TP/test positive = 120/160 = 3/4 NPV = TN/test negative = 200/260 = 10/13 = 5/6.5",
@@ -1154,6 +1178,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "Alpha synuclein is seen in Parkinson's disease. - Tau protein is seen in Alzheimer's and forms the typical Neurofibrillary tangles. - Amyloid deposition is seen in various conditions including Alzheimer's along with Tau. - Prions are responsible for the plaques that drive Creutzfeldt-Jakob Disease. - Albumin is the main protein found in serum.",
@@ -1374,6 +1401,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "Potency is expressed in terms of ED50, which is the plasma concentration required to give 50% max response of the drug. Potency is expressed in terms of the ED50 (gradient\n\nand lateral position of the curve). In this question A and B have the same ED50 (see diagram below). C will be greater then A and B Potency A=B >C Efficacy is defined by Emax. E max = the maximal effect when all the receptors are occupied by a drug. In this question A and C have the highest E max. Efficacy A = C>B",
@@ -1409,6 +1439,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "IL-6 is the main driver of the CRP response. Elevated IL-6 levels are seen in Giant cell arteritis, and Juvenile Idiopathic Systemic Arthritis as well as in infections. It is part of the cytokine storm response seen in Covid-19 severe infections. Sustained high levels are associated with amyloidosis. Tocilizumab is a monoclonal antibody to IL-6 which reduces CRP predictably.",
@@ -1487,6 +1520,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "Glucagon-like peptide 1 (GLP-1) receptor agonists bind to and activate the GLP-1 receptor to increase insulin secretion in the presence of glucose, suppressing glucagon secretion and slowing gastric emptying. They do not cause hypoglycemia.",
@@ -1604,6 +1640,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "This patient has thrombotic thrombocytopenic purpura (TTP) which is a medical emergency and is treated with plasma exchange. - Platelet transfusions are not recommended in TPP treatment. - The ADAMTS-13 antibody test will confirm the diagnosis but takes several days and you cannot wait for the result before treatment is commenced. - Rituximab is an effective treatment but may take several days or weeks to take effect. Therefore, plasma exchange is life saving in the initial treatment regime.",
@@ -1866,6 +1905,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "The honeycomb lung appearance is typical of UiP. This may be idiopathic or associated with many connective tissue disorders, including scleroderma, rheumatoid arthritis, and antisynthetase syndrome. - Asbestos exposure is possible but less likely - there is no history of asbestos exposure, although this cannot be ruled out on history alone. However, the changes on the HRCT are not typical for asbestosis, as pleural plaques/calcification are commonly seen. - PJP is associated with a ground glass appearance and there is nothing in the history to suggest she is\n\nimmunosuppressed. - Alpha-1 antitrypsin deficiency would cause emphysema and bronchietasis with liver involvement also.",
@@ -1939,6 +1981,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "This is Paget's disease. Raised serum ALP is common in Paget's but is not an indication for therapy. All the other options are indications for treatment. Heart failure is due to high output failure in Paget's disease.",
@@ -2050,6 +2095,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "E",
          "answerSource" : "official",
          "explanation" : "C. diff antigen demonstrates the presence of bacteria but not the pathological variance. Toxin assay demonstrates the presence of the pathological variant. As her PCR demonstrates no infective organisms and the toxin assay is negative, no specific change in antibiotic is necessary although it is reasonable in an attempt to stop the diarrhoea. Supportive care ensuring fluid replacement is all that is required. - Erythromycin may be considered for campylobacter and salmonella. - Metronidazole is the first choice for C. Diff with vancomycin indicated with metro failure or severe colitis. - Loperamide may be considered but the risk of toxic megacolon with age and comorbidity limits its use.",
@@ -2280,6 +2328,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "A",
          "answerSource" : "official",
          "explanation" : "Trimethoprim induces a reversible and rapid increase in serum creatinine and decrease in creatinine clearance independent of GFR. This is mediated through inhibition of tubular creatinine secretion. - Hypotension, dehydration, and NSAID would increase creatinine following an acute kidney injury however we would expect a similar rise in urea. - Metformin clearance is reduced and can lead to the development of lactic acidosis in acute deterioration.",
@@ -2360,6 +2411,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "Alcohol hepatitis is characterised by an AST:ALT ratio >2 which is rarely seen in any other cause of hepatitis. - DMARD's may induce hepatitis typically >2× the UL but the ratio is <2. Etanercept does not cause hepatotoxicity. - Amyloidosis is not suspected in the history although it can be associated with hepatic involvement. The most common finding is a raised ALP and increased bilirubin is unlikely. - Steatohepatitis can lead to a similar picture as this however the AST:ALT ratio is <2. - Hepatitis B is part of pre-treatment screening prior to initiating biologic therapies and hence would have been picked up earlier. It would not affect the AST:ALT ratio in this way.",
@@ -2438,6 +2492,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "Primary hyperparathyroidism is by far the most likely cause of mild hypercalcaemia on routine screening. Increased production of PTH by an adenomatous parathyroid drives calcium up via increased bone resorption, intestinal absorption, and decreased renal excretion. Phosphate is typically low or low normal. - Her calcium is elevated which by definition is not normal. - Vitamin D deficiency would cause hypocalcaemia. - Hypercalcaemia is not diagnostic of sarcoidosis. Although it may be associated with hypercalcaemia, in the absence of other symptoms it is unlikely. - Secondary hyperparathyroidism is characterised by hypocalcemia.",
@@ -4559,6 +4616,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "Hydrops faetalis is - -/- -",
@@ -4591,6 +4651,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "Nickel allergy is a contact allergy (also referred to as type IV or delayed type hypersensitivity). Unlike immediate hypersensitivities (such as pollen, insect venom and most food allergies), the reaction in delayed type hypersensitivity occurs sometime after exposure. The most e9ective method for relieving symptoms is avoidance.",
@@ -4800,6 +4863,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "The fraction excreted unchanged (fe) is the proportion of the active drug cleared renally in an average healthy person. 0.4 x 50 = 20 (i.e. 20mg usually cleared renally with normal renal function) 25% of 20 = 5 (i.e. only 5mg is renally cleared in someone with 25% of normal renal function) 20 - 5 = 15mg. Dose needs to be 50 - 15 = 35mg",
@@ -4834,6 +4900,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2022 NSW Trial Paper 2"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "Bioavailability is the fraction of the dose that reaches the systemic circulation as intact drug. F = AUC oral / AUC iv. F = (200/50) / (100/20) = 4/5= 80%",
@@ -4901,6 +4970,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "A",
          "answerSource" : "official",
          "explanation" : "Anti-CCP antibodies have higher specificity for RA than Rheumatoid Factor (RF) - 95 to 98 %. The specificity is greater in patients with higher titres of anti-CCP antibodies (at least three times the upper limit of normal). The sensitivity is similar to RF which is present in over 80 percent of patients with RA. The diagnostic utility of RF is limited by their relatively poor specificity, since RF is found in 5 to 10 percent of healthy individuals, 20 to 30 percent of people with SLE, virtually all patients with mixed cryoglobulinemia (usually caused by hepatitis C virus [HCV] infection), and in those with many other inflammatory conditions. Higher titers of RF (at least three times the upper limit of normal) have somewhat greater specificity for RA. Anti-Smith antibodies are highly specific for SLE, but lack sensitivity (seen in only 30% of patients with SLE). ANA - may be positive in up to one-third of patients with RA. In patients with a positive ANA, anti-double stranded DNA and anti-Smith antibody testing should also be performed; these antibodies have high specificity for SLE. A negative ANA excludes SLE when following the most recently developed classification Criteria (EULAR/ACR 2019).",
@@ -8346,6 +8418,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2023 PAH Trial"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "The need to increase therapy is clear here, with a further flare despite current treatment with a thiopurine and steroids. Perianal involvement signifies a high-risk patient, as does a diagnosis before the age of thirty years. Other factors resulting in high risk are: raised CRP/faecal calprotectin levels; deep ulcers on colonoscopy; tobacco use; extra-intestinal manifestations, such as arthritis, uveitis and psoriasis; and long segments of small and/or large bowel involvement.",
@@ -18362,6 +18437,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2024 NSW Trial Paper 3"
+         ],
          "answer" : "D",
          "answerSource" : "official",
          "explanation" : "",
@@ -19249,6 +19327,10 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2022 NSW Trial Paper 2",
+            "2024 NSW Trial Paper 3"
+         ],
          "answer" : "C",
          "answerSource" : "official",
          "explanation" : "This change in the triplet codon results in a change from one amino acid to another (in this case - glycine to aspartate) \\xAD which is a missense variant.",
@@ -22665,6 +22747,9 @@
          ]
       },
       {
+         "alsoAppearsIn" : [
+            "2024 NSW Trial Paper 3"
+         ],
          "answer" : "B",
          "answerSource" : "official",
          "explanation" : "may exacerbate psoriatic skin disease. All the rest have been approved as treatment of psoriatic arthritis on the PBS. It would be useful to familiarise oneself with the names",

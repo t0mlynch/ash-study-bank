@@ -77,7 +77,7 @@ function buildQueue(questions, mode, size, filters) {
   let filtered = questions;
   if (filters) {
     if (filters.sources && filters.sources.length > 0) {
-      filtered = filtered.filter(q => filters.sources.includes(q.source));
+      filtered = filtered.filter(q => filters.sources.includes(q.source) || (q.alsoAppearsIn || []).some(s => filters.sources.includes(s)));
     }
     if (filters.topics && filters.topics.length > 0) {
       filtered = filtered.filter(q => (q.topics || []).some(t => filters.topics.includes(t)));
@@ -203,7 +203,7 @@ function bindHome() {
   statsEl.appendChild(stat('Got wrong', wrongOnes));
 
   // --- Source filter ---
-  const allSources = [...new Set(questions.map(q => q.source))].sort();
+  const allSources = [...new Set(questions.flatMap(q => [q.source, ...(q.alsoAppearsIn || [])]))].sort();
   const selectedSources = state.settings.selectedSources || allSources.slice();
   buildFilterPanel('source', allSources, selectedSources);
 
