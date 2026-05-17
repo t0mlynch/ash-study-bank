@@ -39556,6 +39556,271 @@
             "oncology",
             "respiratory"
          ]
+      },
+      {
+         "answer" : "B",
+         "answerSource" : "verified-manual",
+         "explanation" : "",
+         "id" : "pah2023-046",
+         "images" : [
+            "images/pah2023-046.png"
+         ],
+         "options" : [
+            {
+               "key" : "A",
+               "text" : "Wolff Parkinson White Syndrome"
+            },
+            {
+               "key" : "B",
+               "text" : "Atrial fibrillation"
+            },
+            {
+               "key" : "C",
+               "text" : "Atrial flutter with 2:1 block"
+            },
+            {
+               "key" : "D",
+               "text" : "Atrial flutter with 3:1 block"
+            },
+            {
+               "key" : "E",
+               "text" : "Junctional tachycardia"
+            },
+            {
+               "key" : "F",
+               "text" : "Supraventricular tachycardia"
+            },
+            {
+               "key" : "G",
+               "text" : "Sinus arrhythmia"
+            },
+            {
+               "key" : "H",
+               "text" : "Ventricular tachycardia"
+            },
+            {
+               "key" : "I",
+               "text" : "Ventricular fibrillation"
+            }
+         ],
+         "source" : "2023 PAH Trial",
+         "stem" : "A 62-year-old lady with an elevated BMI, hypertension, type II diabetes, and sleep apnoea presents with palpitations and shortness of breath. Her 12 lead ECG is shown below.\n\nWhat is the most likely diagnosis?",
+         "tags" : [
+            "clinical-applications"
+         ],
+         "topics" : [
+            "cardiology"
+         ]
+      },
+      {
+         "answer" : "A",
+         "answerSource" : "verified-manual",
+         "explanation" : "",
+         "id" : "pah2023-047",
+         "images" : [
+            "images/pah2023-047.png"
+         ],
+         "options" : [
+            {
+               "key" : "A",
+               "text" : "Wolff Parkinson White Syndrome"
+            },
+            {
+               "key" : "B",
+               "text" : "Atrial fibrillation"
+            },
+            {
+               "key" : "C",
+               "text" : "Atrial flutter with 2:1 block"
+            },
+            {
+               "key" : "D",
+               "text" : "Atrial flutter with 3:1 block"
+            },
+            {
+               "key" : "E",
+               "text" : "Junctional tachycardia"
+            },
+            {
+               "key" : "F",
+               "text" : "Supraventricular tachycardia"
+            },
+            {
+               "key" : "G",
+               "text" : "Sinus arrhythmia"
+            },
+            {
+               "key" : "H",
+               "text" : "Ventricular tachycardia"
+            },
+            {
+               "key" : "I",
+               "text" : "Ventricular fibrillation"
+            }
+         ],
+         "source" : "2023 PAH Trial",
+         "stem" : "A 28-year-old woman presents with sudden onset palpitations and dizziness. She is normally fit and well and takes no regular medications. Her 12 lead ECG is shown below.\n\nWhat is the most likely diagnosis?",
+         "tags" : [
+            "clinical-applications"
+         ],
+         "topics" : [
+            "cardiology"
+         ]
+      },
+      {
+         "answer" : "G",
+         "answerSource" : "verified-manual",
+         "explanation" : "",
+         "id" : "pah2023-048",
+         "images" : [
+            "images/pah2023-048.png"
+         ],
+         "options" : [
+            {
+               "key" : "A",
+               "text" : "Wolff Parkinson White Syndrome"
+            },
+            {
+               "key" : "B",
+               "text" : "Atrial fibrillation"
+            },
+            {
+               "key" : "C",
+               "text" : "Atrial flutter with 2:1 block"
+            },
+            {
+               "key" : "D",
+               "text" : "Atrial flutter with 3:1 block"
+            },
+            {
+               "key" : "E",
+               "text" : "Junctional tachycardia"
+            },
+            {
+               "key" : "F",
+               "text" : "Supraventricular tachycardia"
+            },
+            {
+               "key" : "G",
+               "text" : "Sinus arrhythmia"
+            },
+            {
+               "key" : "H",
+               "text" : "Ventricular tachycardia"
+            },
+            {
+               "key" : "I",
+               "text" : "Ventricular fibrillation"
+            }
+         ],
+         "source" : "2023 PAH Trial",
+         "stem" : "A 19-year-old male presents with episodic breathlessness and palpitations associated with a sensation of impending doom and psychomotor agitation. His 12 lead ECG is shown below.\n\nWhat is the most likely diagnosis?",
+         "tags" : [
+            "clinical-applications"
+         ],
+         "topics" : [
+            "cardiology"
+         ]
+      },
+      {
+         "answer" : "A",
+         "answerSource" : "verified-manual",
+         "explanation" : "MEN1 is associated with pituitary adenomas, pancreatic tumours, and parathyroid hyperplasia (the 3 Ps: Pituitary, Pancreas, Parathyroids).",
+         "id" : "pah2025-046",
+         "images" : [],
+         "options" : [
+            {
+               "key" : "A",
+               "text" : "MEN1"
+            },
+            {
+               "key" : "B",
+               "text" : "RET"
+            },
+            {
+               "key" : "C",
+               "text" : "VHL"
+            },
+            {
+               "key" : "D",
+               "text" : "SDHA"
+            },
+            {
+               "key" : "E",
+               "text" : "SDHB"
+            },
+            {
+               "key" : "F",
+               "text" : "HPNCC"
+            },
+            {
+               "key" : "G",
+               "text" : "PTEN"
+            },
+            {
+               "key" : "H",
+               "text" : "NF1"
+            }
+         ],
+         "source" : "2025 PAH Trial",
+         "stem" : "A patient presents with pancreatic cancer, pituitary adenoma and hyperparathyroidism.\n\nWhich genetic cancer syndrome is most likely?",
+         "tags" : [
+            "clinical-applications"
+         ],
+         "topics" : [
+            "genetics",
+            "oncology"
+         ]
+      },
+      {
+         "answer" : "C",
+         "answerSource" : "verified-manual",
+         "explanation" : "Von Hippel Lindau (VHL) is associated with numerous hemangiomas (retinal and cerebellar) along with renal cell carcinoma, renal cysts, pancreatic cysts and pheochromocytoma.",
+         "id" : "pah2025-047",
+         "images" : [],
+         "options" : [
+            {
+               "key" : "A",
+               "text" : "MEN1"
+            },
+            {
+               "key" : "B",
+               "text" : "RET"
+            },
+            {
+               "key" : "C",
+               "text" : "VHL"
+            },
+            {
+               "key" : "D",
+               "text" : "SDHA"
+            },
+            {
+               "key" : "E",
+               "text" : "SDHB"
+            },
+            {
+               "key" : "F",
+               "text" : "HPNCC"
+            },
+            {
+               "key" : "G",
+               "text" : "PTEN"
+            },
+            {
+               "key" : "H",
+               "text" : "NF1"
+            }
+         ],
+         "source" : "2025 PAH Trial",
+         "stem" : "A patient presents with retinal angioblastoma, cerebellar hemangioma and a large renal mass.\n\nWhich genetic cancer syndrome is most likely?",
+         "tags" : [
+            "clinical-applications"
+         ],
+         "topics" : [
+            "genetics",
+            "oncology"
+         ]
       }
    ],
    "version" : 1
