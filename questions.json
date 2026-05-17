@@ -7857,8 +7857,8 @@
          ]
       },
       {
-         "answer" : "C",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Autosomal dominant hypophosphataemic rickets (ADHR) is a rare genetic disorder caused by mutations in the FGF23 gene which results in elevated and uncleavable FGF23 levels, leading to a buildup of the hormone. FGF23 is a phophaturic hormone that decreases the amount of phosphate reabsorbed by the kidneys, lowering phosphate levels in the blood. It also suppresses the production of calcitriol (the active form of vitamin D) in the kidneys. PTH is high in autosomal dominant hypophosphatemic rickets (ADHR) due to the mutated and overactive fibroblast growth factor-23 (FGF23) protein, which both directly stimulates parathyroid glands to produce more PTH and indirectly increases PTH by decreasing vitamin D activation.",
          "id" : "pah2025-006",
          "options" : [
@@ -8859,8 +8859,8 @@
          ]
       },
       {
-         "answer" : "C",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Pasireotide causes new onset diabetes in 60% by binding to SST5 somatostatin receptor on pancreas beta cells, can also exacerbate pre-existing diabetes. If diabetes from acromegaly or other, avoid pasireotide.\nEXTENDED MATCHING QUESTIONS (Q46-47)\nMatch the following genetic cancer syndromes from the list of options:\nA. MEN1 B. RET C. VHL D. SDHA E. SDHB F. HPNCC G. PTEN H. NF1",
          "id" : "pah2025-045",
          "options" : [
@@ -8934,8 +8934,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "The safest treatments for vasomotor menopausal symptoms with a history of breast cancer include nonhormonal medications like SSRIs. Both venlafaxine and paroxetine can be effective for vasomotor menopausal symptoms, but studies suggest paroxetine may offer a greater overall reduction in hot flashes, while venlafaxine may provide faster symptom relief but with more side effects. Hormone therapy generally not recommended due to the risk of stimulating any remaining cancer cells, especially in oestrogen-receptor-positive breast cancers.",
          "id" : "pah2025-049",
          "options" : [
@@ -16370,8 +16370,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "Reactive arthritis (ReA) occurs in about 5:1000 cases of gastroenteritis caused by a variety of organisms\r\n(most commonly Salmonella and Shigella). Stool culture is very helpful in confirming current infection\r\nand hence ReA. Risk of recurrence is greatly increased by being HLA B27 positive. Prednisone is not\r\nindicated. Treatment is with NSAIDs and intra-articular corticosteroid injection. Aspiration is not needed\r\nfor diagnosis, as this is not a history for septic arthritis.",
          "id" : "pah2023-003",
          "options" : [
@@ -16405,8 +16405,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Erythema nodosum is a panniculitis characterized by tender erythematous to reddish-brown\r\nsubcutaneous nodules on the anterior shins. Given the symptoms described in this case, this patient\r\nlikely has inflammatory bowel disease\\xADassociated erythema nodosum.\r\nErythema nodosum is a reaction pattern that may also occur in association with other conditions,\r\nincluding sarcoidosis, infections, and lymphoma, or with particular medications. The most commonly\r\nreported infectious aetiology is streptococcal infection, but erythema nodosum may also be seen with\r\nmany other infections, including tuberculosis and other bacterial, fungal, and viral infections. Oral\r\ncontraceptives are also rare causes of erythema nodosum.\r\nPolyarteritis nodosa, a vasculitis of small to medium-sized arteries, may manifest as cutaneous nodules,\r\nbut features of purpura or livedo reticularis will often be present, indicating a more active vascular\r\ninjury pattern. Polyarteritis nodosa may be limited to the skin or associated with vasculitis of internal\r\norgans.\r\nPyoderma gangrenosum is an autoimmune ulcerative process characterized by progressive cutaneous\r\nulceration featuring an active, inflamed, undermined border with deeply necrotic centres.\r\nPancreatic panniculitis may manifest similarly to erythema nodosum, as tender red nodules on the legs;\r\nhowever, there is often an oily substance draining from the nodules, and the patient would have\r\nunderlying pancreatitis or pancreatic malignancy. The history in this case does not suggest a pancreatic\r\naetiology.",
          "id" : "pah2023-005",
          "options" : [
@@ -16443,8 +16443,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "The eTG recommends pre-procedural antibiotic prophylaxis be given for patients with any of the following:\r\n          prosthetic cardiac valve, including transcatheter-implanted prosthesis or homograft\r\n          prosthetic material used for cardiac valve repair, such as annuloplasty rings and chords\r\n          previous infective endocarditis\r\n          congenital heart disease but only if it involves:\r\n                     unrepaired cyanotic defects, including palliative shunts and conduits\r\n                     repaired defects with residual defects at or adjacent to the site of a prosthetic patch or device\r\n                         (which inhibit endothelialisation)\r\n          rheumatic heart disease\r\n    Procedures for which endocarditis prophylaxis is recommended (for patients with above cardiac conditions):\r\n          Dental procedures --only those involving manipulation of the gingival or periapical tissue or\r\n              perforation of the oral mucosa (eg extraction, implant placement, biopsy, removal of soft tissue or\r\n              bone, subgingival scaling and root planing, replanting avulsed teeth).\r\n          Dermatological or musculoskeletal procedures --only those involving infected skin, skin structures or\r\n              musculoskeletal tissues.\r\n          Respiratory tract or ear, nose and throat procedures --only for tonsillectomy or adenoidectomy, or\r\n              invasive respiratory tract or ear, nose and throat procedures to treat an established infection (eg\r\n              drainage of abscess).\r\n          Genitourinary and gastrointestinal tract procedures--only if surgical antibiotic prophylaxis is required\r\n              or for patients with an established infection",
          "id" : "pah2023-007",
          "options" : [
@@ -16517,8 +16517,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "This lesion would localise best to the right sciatic nerve. Sciatic nerve palsy is a rare complication of hip\r\n    arthroplasty (~0.5%).\r\n    L5 damage would cause foot drop but not the loss of ankle jerk which is innervated via S1/tibial nerve.\r\n    Tibial neuropathy would cause loss of ankle jerk, but weakness of plantarflexion (not dorsiflexion).\r\n    The femoral nerve innervates knee extensors and knee jerk.",
          "id" : "pah2023-009",
          "options" : [
@@ -16551,8 +16551,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "For all symptomatic patients with COPD:\r\n             o follow a stepwise approach to pharmacological treatment until adequate control of\r\n                 breathlessness, improved functional capacity, and control of exacerbation frequency is\r\n                 achieved.\r\n             o use short-acting inhaled bronchodilator therapy for short-term relief of breathlessness.\r\n     For patients receiving short-acting bronchodilators who have persistent\r\n    troublesome dyspnoea, add a long-acting muscarinic antagonist or long-acting\r\n    beta2-agonist (or both in combination if monotherapy is not adequate) for\r\n    regular use.\r\n     LAMA / LABA fixed dose combinations in a single inhaler (glycopyrronium / indacaterol,\r\n        umeclidinium / vilanterol, tiotropium / olodaterol, aclidinium / formoterol) are available for patients\r\n        who remain symptomatic despite monotherapy with either alone.\r\n     Triple therapy (ICS / LABA / LAMA) should be limited to patients with repeated exacerbations and\r\n        more severe COPD symptoms that cannot be adequately managed by dual therapy. SR HE\r\n     Avoid long-term (> 2 weeks) use of systemic corticosteroids.\r\n    Inhaled bronchodilators are preferred to oral bronchodilators, such as theophylline. Theophylline is not\r\n    recommended unless other bronchodilators for long-term treatment are unavailable or unaffordable.\r\nPage 9 of 43",
          "id" : "pah2023-010",
          "options" : [
@@ -16587,8 +16587,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Absolute indications to start dialysis include uremic pericarditis or pleuritis and progressive uraemic\r\nencephalopathy. Common symptoms that provide indication for dialysis initiation include declining\r\nnutritional status, fatigue and malaise and mild cognitive impairment. Other indications are persistent or\r\ndifficult-to-treat volume overload and laboratory abnormalities refractory to medical treatment\r\nincluding acidosis, hyperkalaemia, and hyperphosphatemia.",
          "id" : "pah2023-013",
          "options" : [
@@ -16622,8 +16622,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Explanation: Anion gap = (136+3.5) - (114+17) = 8.5 i.e. normal.\r\n    DKA and starvation ketosis would typically demonstrate raised anion gap.\r\n    Vomiting usually presents with a metabolic alkalosis due to loss of stomach acid and chloride deficit.\r\n    Chloride deficit drives bicarbonate reabsorption in the kidney, maintaining the alkalosis.\r\n    This hyperchloraemic acidosis suggests gastrointestinal losses and would be consistent with diarrhoea,\r\n    perhaps due to laxative abuse.",
          "id" : "pah2023-014",
          "options" : [
@@ -16656,8 +16656,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Page 12 of 43",
          "id" : "pah2023-015",
          "options" : [
@@ -16690,8 +16690,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "Cholinesterase inhibitors are not advised in those with bradycardia or conduction defects as they may\r\nexacerbate these leading to a more profound bradycardia, heart block, or syncope. It is recommended\r\nthat an ECG is performed prior to initiating treatment, and heart rate is monitored each month during\r\ntitration.",
          "id" : "pah2023-016",
          "options" : [
@@ -16725,8 +16725,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "The core features of borderline personality disorder include emotion dysregulation, impulsivity, and\r\n    interpersonal dysfunction. DSM-5 diagnostic criteria = Pervasive instability of social relationships, self-\r\n    image, and emotions; marked impulsivity beginning in early adulthood and present in at least five of the\r\n    following contexts:\r\n     Frantic efforts to avoid real or imagined abandonment, reflecting intolerance to being alone\r\n     Unstable and intense relationships marked by abrupt and extreme shifts between idealization and\r\n        devaluation\r\n     Identity disturbance, seen in an unstable self-image or sense of self\r\n     Impulsivity that is potentially self-damaging in at least two of the following areas - spending, sex,\r\n        substance abuse, reckless driving, binge eating\r\n     Recurrent suicidal gestures or threats, or self-mutilation\r\n     Marked mood reactivity\r\n     Chronic feelings of emptiness\r\n     Frequent displays of inappropriate or intense anger\r\n     Stress-related paranoid ideation or severe dissociative symptoms.",
          "id" : "pah2023-018",
          "options" : [
@@ -16759,8 +16759,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Fluconazole is a cytochrome P450 enzyme inhibitor (CYP2C9 and CYP3A4). Methadone undergoes\r\n    demethylation by CYP450 enzymes (primarily 3A4 and 2D6). Inhibition of CYP450 will lead to decreased\r\nPage 14 of 43\r\n\f    clearance of methadone and thus increased plasma levels leading to narcosis. The other concern here\r\n    will be numerous drugs which prolong QTc.",
          "id" : "pah2023-019",
          "options" : [
@@ -16793,8 +16793,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "This patient has Ankylosing Spondylitis. The first line management of this is physiotherapy and NSAIDs,\r\n    which they have trialled without improvement. Therefore the next therapeutic option is a TNF alpha\r\n    inhibitor such as adalimumab. An IL-17 monoclonal antibody such as Secukinumab is another\r\n    alternative.",
          "id" : "pah2023-021",
          "options" : [
@@ -16865,8 +16865,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Higher risk of progression from MGUS to MM is associated with IgA, and abnormal free light chain ratio.\r\n    High serum calcium, anaemia and elevated creatinine all suggest potential transformation to MM. All\r\n    myeloma patients should receive bisphosphonates, as they have anti-myeloma effects and reduce\r\n    serum calcium even if no lytic lesions are seen.\r\n    QUESTION 24.\r\n    A 45-year-old Queenslander is diagnosed with metastatic melanoma. Biopsy demonstrates a BRAF\r\n    V600E mutation. Which of the following is the most appropriate initial treatment?\r\n        A. BRAF inhibitor alone\r\n        B. Pembrolizumab\r\n        C. BRAF inhibitor plus MEK inhibitor in combination\r\n        D. Dacarbazine\r\n    EXPLANATION:\r\n    This man has metastatic melanoma with a BRAF mutation. This mutation causes activation of the MAP-\r\n    Kinase pathway, causing upregulation of cell proliferation and survival. Therefore appropriate first line\r\n    treatment is with a BRAF inhibitor to target this mutation and pathway. However this needs to be given\r\n    in combination with a MEK inhibitor as over 80% of patients on a BRAF inhibitor develop resistance. The\r\n    main mechanism of resistance is via MAP Kinase reactivation via MEK. Therefore a MEK inhibitor is given\r\n    in combination to delay the timing of resistance development, and improve overall survival. Studies\r\n    have shown that there is increased response rate, median survival, and overall survival with a BRAF\r\n    inhibitor compared to dacarbazine, therefore D is not correct.",
          "id" : "pah2023-023",
          "options" : [
@@ -16902,8 +16902,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Valproic acid OD can result in severe cerebral oedema and hyperammonaemia. Paracetamol OD is\r\n    common and can cause cerebral oedema if fulminant liver failure occurs, but this patient has only a mild\r\n    elevation on ALT, making this extremely unlikely. The other drugs would not explain this clinical\r\n    scenario.\r\nPage 18 of 43",
          "id" : "pah2023-027",
          "options" : [
@@ -16939,8 +16939,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Features of Horner's syndrome: myosis, ptosis, anhidrosis",
          "id" : "pah2023-028",
          "options" : [
@@ -16971,8 +16971,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "The patients has varicella and should be placed on airborne and contact precautions. Airborne droplet\r\n    nuclei are particles of respiratory secretions <5 microns. Droplet nuclei can remain suspended in the air\r\n    for extended periods and thus can be a source of inhalation exposure for susceptible individuals.\r\n    Airborne precautions are warranted for the care of patients with suspected or confirmed tuberculosis,\r\n    measles and varicella. Patients on airborne isolation precautions should be placed in a private room with\r\n    negative air pressure that has a minimum of 6 to 12 air changes per hour. Doors to the isolation rooms\r\nPage 19 of 43\r\n\f    must remain closed, and all individuals who enter must wear a respirator with a filtering capacity of 95\r\n    percent that allows a tight seal over the nose and mouth. In the setting of herpes zoster, airborne and\r\n    contact precautions are warranted for all patients with disseminated zoster and for\r\n    immunocompromised patients with localised zoster. Immunocompetent patients with localised zoster\r\n    that can be contained/covered may be managed with standard precautions. Susceptible health care\r\n    workers should not provide direct care to these patients if immune caregivers are available.",
          "id" : "pah2023-029",
          "images" : [
@@ -17014,8 +17014,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Tacrolimus is associated with a higher frequency of hyperglycaemia and diabetes compared to\r\n    cyclosporin. Neurological complications are also more common in this group. Cyclosporin has a higher\r\n    frequency of hypertension, hirsutism, gum hypertrophy, and dyslipidaemia.",
          "id" : "pah2023-030",
          "options" : [
@@ -17049,8 +17049,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Page 20 of 43",
          "id" : "pah2023-031",
          "options" : [
@@ -17154,8 +17154,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Start with working out the total daily dose of morphine: 140 + 40 = 180\r\n    180mg oral morphine is equivalent to 90mg IV (PO:IV is 2:1)\r\n    So for every 4 hours it is 90mg/6=15mg",
          "id" : "pah2023-034",
          "options" : [
@@ -17188,8 +17188,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "This patient has abnormalities of her posterior columns (vibration and proprioception) along with\r\n    corticospinal tract signs. These are seen with subacute combined degeneration of the cord as seen in\r\n    Vitamin B12 deficiency. Ankle jerks are often absent as peripheral nerve damage from the loss of dorsal\r\n    root ganglion cells prevent a full-blown upper motor neuron picture. Metformin is associated with\r\n    vitamin B12 deficiency, which is likely to have been exacerbated when this patient became vegan.\r\n    Diabetic neuropathy is predominately a peripheral sensory neuropathy and usually occurs with\r\n    prolonged microvascular disease. Tabes dorsalis as its name suggest, involves the dorsal (posterior)\r\n    columns, with sparing of the corticospinal tracts. Friedreich's ataxia is an autosomal recessive\r\n    degenerative condition that can also affect the posterior columns and the corticospinal tracts. However,\r\n    it is usually manifest by the time patients are in their early 20s or 30s.",
          "id" : "pah2023-035",
          "options" : [
@@ -17222,8 +17222,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "",
          "id" : "pah2023-036",
          "options" : [
@@ -17254,8 +17254,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "The diagnosis of eosinophilic esophagitis is based upon symptoms, endoscopic appearance, and\r\n    histological findings. Eosinophilic oesophagitis should be suspected in patients with chronic symptoms\r\n    of oesophageal dysfunction (e.g. dysphagia, food impaction, food refusal, abdominal pain, heartburn,\r\n    regurgitation, chest pain, odynophagia). A history of atopic comorbidities (e.g. asthma, atopic\r\n    dermatitis, or immediate food-type allergies) and a family history of eosinophilic esophagitis or\r\n    dysphagia, should raise the index of suspicion.",
          "id" : "pah2023-037",
          "images" : [
@@ -17293,8 +17293,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "",
          "id" : "pah2023-038",
          "options" : [
@@ -17429,8 +17429,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Jaccoud's arthropathy occurs in up to 5 to 10 percent of patients with Sj\\xF6gren's syndrome or SLE and\r\ncan also occur in sarcoidosis. The joint deformities of Jaccoud's arthropathy are not caused by\r\ndestruction of joints but by loosening and lengthening of periarticular structures and tendons. The ulnar\r\ndrift or swan neck deformities caused by this disorder resemble RA superficially but can be distinguished\r\nby the fact that they are \"correctable\" on physical examination: fingers with these deformities can be\r\nmoved manually back into normal alignment. In addition, radiographs in Jaccoud's arthropathy rarely\r\nreveal the cartilage loss, erosions, or cysts that are typical of longstanding RA. Jaccoud's arthropathy can\r\nalso occur following acute rheumatic fever.",
          "id" : "pah2023-042",
          "options" : [
@@ -17466,8 +17466,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Delirium is characterised by an acute onset and fluctuating nature of inattention, plus either\r\ndisorganised thinking or altered consciousness level. The remaining responses can be seen in both\r\ndelirium or dementia and are not helpful in teasing the two apart.\r\nPage 26 of 43",
          "id" : "pah2023-044",
          "options" : [
@@ -17499,8 +17499,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "BRCA1, BRCA2 and PALB2 repair double-strand DNA breaks by the error-free homologous recombinant\r\n    repair pathway. PARP1 repairs single stranded DNA breaks. If these breaks are not repaired before DNA\r\n    replication, then there will be double stranded breaks. PARP inhibitors will cause double-stranded DNA\r\n    breaks which cannot be accurately repaired in tumours cells with a BRCA mutation, which leads to\r\n    disruption of cellular homeostasis and cell death.",
          "id" : "pah2023-049",
          "options" : [
@@ -17533,8 +17533,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "For a 6 to 8 mm solid nodule, a CT should be performed at 6 to 12 months. In a high-risk patient, or if\r\n    size stability of the nodule is uncertain, another CT should be performed at 18 to 24 months. For a low-\r\n    risk patient with a nodule that is clearly unchanged, follow-up can stop at 6 to 12 months. Modern CT\r\n    surveillance protocols with contiguous thin slice (1 mm section) imaging allow for confident assessment\r\n    of size stability even on a single follow-up examination.\r\nPage 29 of 43\r\n\f                   MEDICAL SCIENCES\r\n                      35 QUESTIONS\r\nPage 30 of 43",
          "id" : "pah2023-050",
          "options" : [
@@ -17565,8 +17565,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Studies have estimated the risk of clozapine-induced myocarditis to be 1 in 500 to 1 in 10,000. The true risk is\r\n    likely closer to the 1 in 500 rate. Most cases of myocarditis occur early in the course of clozapine treatment, a\r\n    median of about 16 days following the commencement of the medication. Post-mortem examination has most\r\n    commonly revealed damaged myocytes and eosinophilic infiltration suggesting a type I IgE-mediated acute\r\n    hypersensitivity reaction. Other contributing mechanisms may include cytokine release and high levels of\r\n    catecholamines. A diagnosis of myocarditis should be followed by prompt discontinuation of clozapine and\r\n    medical follow-up with the patient's primary care clinician for supportive treatment. This course will usually lead\r\n    to spontaneous resolution. Subsequent use of clozapine in cases with clear clozapine-induced myocarditis leads to\r\n    recurrence of myocarditis in most cases when the drug is restarted.",
          "id" : "pah2023-053",
          "options" : [
@@ -17599,8 +17599,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "Anaemia with its decreased carbon monoxide carrying capacity results in a decreased DLCO.\r\n    There are formulas available to help correct for this. Conversely, polycythaemia is likely to give an\r\n    increased DLCO. All the other situations and conditions give an increased DLCO.",
          "id" : "pah2023-055",
          "options" : [
@@ -17669,8 +17669,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Bioavailability (F) = [AUC(PR)/AUC(IV)] x100\r\nAUC oral= 30\r\nAUC IV = 20 x 5 (to make doses equivalent) = 100\r\nF = (30/100) x 100\r\nF = 30%",
          "id" : "pah2023-064",
          "options" : [
@@ -17701,8 +17701,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "Levels of suPAR have been found to be elevated in approximately 84% of adult patients with FSGS.\r\nsuPAR has been shown to bind and activate podocyte 3 integrin, which leads to podocyte foot process\r\neffacement that is characteristic of proteinuric renal diseases.\r\nPage 36 of 43",
          "id" : "pah2023-065",
          "options" : [
@@ -17766,8 +17766,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "The satisfaction scores have confidence intervals that do not overlap, thus there is a statistically\r\n    significant difference. There is no blinding in the study design. The p value is 0.005, or 0.5%, not 0.005%.",
          "id" : "pah2023-068",
          "options" : [
@@ -17799,8 +17799,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "2,3-BPG acts to stabilise deoxygenated Hb so that the oxygen does not transfer back from the tissue to\r\n    the Hb. 2,3-BPG levels are reduced in hypophosphatemia, increased with chronic hypoxia and pregnancy",
          "id" : "pah2023-069",
          "options" : [
@@ -17834,8 +17834,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "",
          "id" : "pah2023-071",
          "options" : [
@@ -17866,8 +17866,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "A type I error (also referred to as an \"alpha error\") is incorrectly concluding that there is a statistically\r\n    significant difference in a dataset; the probability of making a type I error is called \"alpha.\" A typical\r\n    value for alpha is 0.05. Thus, a p<0.05 leads to a decision to reject the null hypothesis, although lower\r\n    values for claiming statistical significance have been proposed.",
          "id" : "pah2023-073",
          "options" : [
@@ -17898,8 +17898,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Prosopagnosia is the inability to recognise faces, it is not part of Gerstmann's syndrome, which has the\r\n    other features listed above.\r\nPage 39 of 43",
          "id" : "pah2023-074",
          "options" : [
@@ -17963,8 +17963,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "Vancomycin works by inhibiting the synthesis of the bacterial cell wall by binding to Dalanyl- D-alanine\r\n    (D-ALA-D-ALA) terminus of the pentapeptide side chain, preventing crosslinking. It is only active against\r\n    gram positive bacteria as it cannot penetrate the outer lipid membrane found in gram negative bacteria.\r\n    Resistance to vancomycin is encoded by various clusters of genes such as VanA, VanB and VanC. In the\r\n    case of VanA and VanB it results in a change of the vancomycin binding terminus to D-ALA-D-LAC\r\n    (lactate) which vancomycin binds to with much lower affinity.",
          "id" : "pah2023-076",
          "options" : [
@@ -18028,8 +18028,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "D",
+         "answerSource" : "verified-manual",
          "explanation" : "The SAAG identifies the presence of portal hypertension. It is calculated by subtracting the ascitic fluid\r\n    albumin value from the serum albumin value, which should be obtained the same day. The SAAG\r\n    generally does not need to be repeated after the initial measurement. High SAAG (11 g/L or 1.1 g/dL):\r\n    Cirrhosis, Alcoholic Hepatitis, Heart failure, massive hepatic metastases, heart failure/constrictive\r\n    pericarditis, Budd-Chiari syndrome, Portal vein thrombosis, Idiopathic portal fibrosis. Low SSAG (<11 g/L\r\n    or < 1.1 g/dL): Peritoneal carcinomatosis, peritoneal tuberculosis, pancreatitis, serositis, nephrotic\r\n    syndrome.",
          "id" : "pah2023-081",
          "options" : [
@@ -18066,8 +18066,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "C",
+         "answerSource" : "verified-manual",
          "explanation" : "For some genes, only the allele inherited from a particular parent is expressed in the offspring. A gene\r\n    that is expressed only from the paternally inherited chromosome is maternally imprinted (the maternal\r\n    allele is inactivated); a gene that is expressed only from the maternally inherited chromosome is\r\n    paternally imprinted (the paternal allele is inactivated). When such a gene is mutated, only individuals in\r\n    whom the mutated allele is expressed will have the disease, whereas individuals whose mutated copy is\r\n    imprinted will be healthy. As can be seen in the family pedigree above, whenever the mutation passes\r\n    through the maternal germline, the offspring are non-manifesting carriers. Her sons will have affected\r\n    children, whereas her daughters will again silently transmit the mutation to the next generation.\r\n    Overall, there should be an equal number of affected individuals and non-manifesting carriers in each\r\n    generation. Also, where there is male to male transmission of a disease conditions with X-linkage,\r\n    paternal imprinting can also be excluded.\r\nPage 42 of 43",
          "id" : "pah2023-082",
          "options" : [
@@ -18100,8 +18100,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "Bleeding from DIC/increased fibrinolysis is seen with acute promyelocytic leukaemia (APML), and is the\r\nreason this subtype of AML used to hold the worst prognosis. The landscape has been changed with\r\ntargeted treatment; however, it remains an important cause of early mortality. APML cells have a\r\nbalanced translocation t(15;17); this translocation is the site of the retinoic acid receptor. The other\r\ntranslocations here are associated with Burkitt's lymphoma t(8;14); CML t(9;22) and a distinct subgroup\r\nof AML t(8;21).",
          "id" : "pah2023-083",
          "options" : [
@@ -18134,8 +18134,8 @@
          ]
       },
       {
-         "answer" : "A",
-         "answerSource" : "official",
+         "answer" : "B",
+         "answerSource" : "verified-manual",
          "explanation" : "CNIs, MMF and Azathioprine all act on T cell-mediated rejection, where Prednisone is the only\r\nimmunosuppressant that also acts on B cells and hence antibody-mediated rejection.",
          "id" : "pah2023-084",
          "options" : [
